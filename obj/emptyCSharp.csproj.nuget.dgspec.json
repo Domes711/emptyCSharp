@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dominikzdrahala/Projects/emptyCSharp/emptyCSharp/emptyCSharp.csproj": {}
+  },
+  "projects": {
+    "/Users/dominikzdrahala/Projects/emptyCSharp/emptyCSharp/emptyCSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dominikzdrahala/Projects/emptyCSharp/emptyCSharp/emptyCSharp.csproj",
+        "projectName": "emptyCSharp",
+        "projectPath": "/Users/dominikzdrahala/Projects/emptyCSharp/emptyCSharp/emptyCSharp.csproj",
+        "packagesPath": "/Users/dominikzdrahala/.nuget/packages/",
+        "outputPath": "/Users/dominikzdrahala/Projects/emptyCSharp/emptyCSharp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dominikzdrahala/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
